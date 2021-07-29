@@ -1,0 +1,32 @@
+.cover__overlay {
+  background-color: #2A2C2F30;
+  transition: .5s linear;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__overlay:hover {
+  background-color: #2A2C2F80;
+}
+
+@media (max-width:1100px) {
+  .cover__overlay {
+    height: 640px;
+  }
+}
+
+@media (max-width:820px) {
+  .cover__overlay {
+    height: 480px;
+  }
+}
+
+@media (max-width:690px) {
+  .cover__overlay {
+    height: 200px;
+  }
+}
+

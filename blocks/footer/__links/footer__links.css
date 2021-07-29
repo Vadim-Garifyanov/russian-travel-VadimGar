@@ -1,0 +1,19 @@
+.footer__links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width:690px) {
+  .footer__links {
+    display: block;
+  }
+  .footer__links li {
+    padding-bottom: 32px;
+  }
+
+  .footer__links li:last-child {
+    padding-bottom: 48px;
+  }
+}
