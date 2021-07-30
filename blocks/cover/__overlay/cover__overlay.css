@@ -1,5 +1,5 @@
 .cover__overlay {
-  background-color: #2A2C2F30;
+  background-color: #2a2c2f4d;
   transition: .5s linear;
   height: 740px;
   display: flex;
@@ -9,7 +9,7 @@
 }
 
 .cover__overlay:hover {
-  background-color: #2A2C2F80;
+  background-color: #2a2c2fcc;
 }
 
 @media (max-width:1100px) {

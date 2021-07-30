@@ -5,3 +5,9 @@
   padding-bottom: 33px;
   max-width: 690px;
 }
+
+@media (max-width:820px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
