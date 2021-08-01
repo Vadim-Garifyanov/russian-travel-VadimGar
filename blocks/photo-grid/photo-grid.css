@@ -3,17 +3,25 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   gap: 16px;
-  padding-bottom: 92px;
+  padding: 0 48px 92px;
 }
 
-@media (max-width:768px) {
+@media (max-width: 1100px) {
   .photo-grid {
-    padding-bottom: 88px;
+    gap: 14px;
   }
 }
 
-@media (max-width:690px) {
+@media (max-width: 820px) {
   .photo-grid {
-    padding-bottom: 64px;
+    padding: 0 24px 88px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 690px) {
+  .photo-grid {
+    padding: 0 16px 64px;
+    gap: 12px;
   }
 }

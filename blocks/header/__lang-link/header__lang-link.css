@@ -1,11 +1,11 @@
 .header__lang-link {
   width: 30px;
-  height: 28px;
   color: #FFFFFF;
   font-size: 24px;
   line-height: 28px;
   text-decoration: none;
   transition: .5s linear;
+  margin: 0 0 0 18px;
 }
 
 .header__lang-link:hover {
@@ -15,7 +15,6 @@
 @media (max-width:690px) {
   .header__lang-link {
     width: 22px;
-    height: 0px;
     font-size: 18px;
     line-height: 20px;
   }

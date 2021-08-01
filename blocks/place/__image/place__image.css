@@ -5,7 +5,5 @@
 @media (max-width:690px) {
   .place__image {
     padding-bottom: 32px;
-    max-width: calc(100% + 32px);
-    margin: 0 -16px;
   }
 }

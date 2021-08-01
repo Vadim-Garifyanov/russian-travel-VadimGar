@@ -1,7 +1,7 @@
 .cover__overlay {
-  background-color: #2a2c2f4d;
+  background-color: rgba(42, 44, 47, .3);
   transition: .5s linear;
-  height: 740px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,24 +9,24 @@
 }
 
 .cover__overlay:hover {
-  background-color: #2a2c2fcc;
+  background-color: rgba(42, 44, 47, .8);
 }
 
 @media (max-width:1100px) {
   .cover__overlay {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media (max-width:820px) {
   .cover__overlay {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media (max-width:690px) {
   .cover__overlay {
-    height: 200px;
+    min-height: 200px;
   }
 }
 
